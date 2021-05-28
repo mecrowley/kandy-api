@@ -1,0 +1,33 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "address": "8079 Studebaker Drive",
+            "squareFootage": 1250,
+            "handicapAccessible": true
+        },
+        {
+            "id": 2,
+            "address": "9264 Acacia Ave",
+            "squareFootage": 1000,
+            "handicapAccessible": false
+        },
+        {
+            "id": 3,
+            "address": "86 Leatherwood Street",
+            "squareFootage": 1550,
+            "handicapAccessible": true
+        },
+        {
+            "id": 4,
+            "address": "7 Cypress Dr",
+            "squareFootage": 2000,
+            "handicapAccessible": true
+        }
+    ],
+    "products": [],
+    "productTypes": [],
+    "employees": [],
+    "customers": []
+
+}
