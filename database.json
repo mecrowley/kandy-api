@@ -25,8 +25,80 @@
             "handicapAccessible": true
         }
     ],
-    "products": [],
-    "productTypes": [],
+    "products": [
+        {
+            "id": 1,
+            "name": "Jolly Ranchers",
+            "productTypeId": 1,
+            "price": 3.73
+        },
+        {
+            "id": 2,
+            "name": "Jaw Breakers",
+            "productTypeId": 1,
+            "price": 4.99
+        },
+        {
+            "id": 3,
+            "name": "Fruit Stripe",
+            "productTypeId": 2,
+            "price": 3.75
+        },
+        {
+            "id": 4,
+            "name": "Doublemint",
+            "productTypeId": 2,
+            "price": 3.50
+        },
+        {
+            "id": 5,
+            "name": "M & Ms",
+            "productTypeId": 3,
+            "price": 1.99
+        },
+        {
+            "id": 6,
+            "name": "Kit Kat",
+            "productTypeId": 3,
+            "price": 1.27
+        },
+        {
+            "id": 7,
+            "name": "Gummi Bears",
+            "productTypeId": 4,
+            "price": 2.00
+        },
+        {
+            "id": 8,
+            "name": "Orange Slices",
+            "productTypeId": 4,
+            "price": 2.45
+        },
+        {
+            "id": 9,
+            "name": "Gummi Worms",
+            "productTypeId": 4,
+            "price": 1.75
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "name": "Hard Candy"
+        },
+        {
+            "id": 2,
+            "name": "Gum"
+        },
+        {
+            "id": 3,
+            "name": "Chocolate"
+        },
+        {
+            "id": 4,
+            "name": "Gummies"
+        }
+    ],
     "employees": [],
     "customers": []
 
