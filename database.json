@@ -99,7 +99,22 @@
             "name": "Gummies"
         }
     ],
-    "employees": [],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Elena Allan",
+            "manager": true,
+            "fullTime": true,
+            "hourlyRate": 21.25
+        },
+        {
+            "id": 2,
+            "name": "Frank Jensen",
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 15.45
+        }
+    ],
     "customers": []
 
 }
