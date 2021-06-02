@@ -103,6 +103,7 @@
         {
             "id": 1,
             "name": "Elena Allan",
+            "locationId": 1,
             "manager": true,
             "fullTime": true,
             "hourlyRate": 21.25
@@ -110,6 +111,7 @@
         {
             "id": 2,
             "name": "Frank Jensen",
+            "locationId": 4,
             "manager": false,
             "fullTime": false,
             "hourlyRate": 15.45
