@@ -1,122 +1,262 @@
 {
-    "locations": [
-        {
-            "id": 1,
-            "address": "8079 Studebaker Drive",
-            "squareFootage": 1250,
-            "handicapAccessible": true
-        },
-        {
-            "id": 2,
-            "address": "9264 Acacia Ave",
-            "squareFootage": 1000,
-            "handicapAccessible": false
-        },
-        {
-            "id": 3,
-            "address": "86 Leatherwood Street",
-            "squareFootage": 1550,
-            "handicapAccessible": true
-        },
-        {
-            "id": 4,
-            "address": "7 Cypress Dr",
-            "squareFootage": 2000,
-            "handicapAccessible": true
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "Jolly Ranchers",
-            "productTypeId": 1,
-            "price": 3.73
-        },
-        {
-            "id": 2,
-            "name": "Jaw Breakers",
-            "productTypeId": 1,
-            "price": 4.99
-        },
-        {
-            "id": 3,
-            "name": "Fruit Stripe",
-            "productTypeId": 2,
-            "price": 3.75
-        },
-        {
-            "id": 4,
-            "name": "Doublemint",
-            "productTypeId": 2,
-            "price": 3.50
-        },
-        {
-            "id": 5,
-            "name": "M & Ms",
-            "productTypeId": 3,
-            "price": 1.99
-        },
-        {
-            "id": 6,
-            "name": "Kit Kat",
-            "productTypeId": 3,
-            "price": 1.27
-        },
-        {
-            "id": 7,
-            "name": "Gummi Bears",
-            "productTypeId": 4,
-            "price": 2.00
-        },
-        {
-            "id": 8,
-            "name": "Orange Slices",
-            "productTypeId": 4,
-            "price": 2.45
-        },
-        {
-            "id": 9,
-            "name": "Gummi Worms",
-            "productTypeId": 4,
-            "price": 1.75
-        }
-    ],
-    "productTypes": [
-        {
-            "id": 1,
-            "name": "Hard Candy"
-        },
-        {
-            "id": 2,
-            "name": "Gum"
-        },
-        {
-            "id": 3,
-            "name": "Chocolate"
-        },
-        {
-            "id": 4,
-            "name": "Gummies"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Elena Allan",
-            "locationId": 1,
-            "manager": true,
-            "fullTime": true,
-            "hourlyRate": 21.25
-        },
-        {
-            "id": 2,
-            "name": "Frank Jensen",
-            "locationId": 4,
-            "manager": false,
-            "fullTime": false,
-            "hourlyRate": 15.45
-        }
-    ],
-    "customers": []
-
+  "locations": [
+    {
+      "id": 1,
+      "address": "8079 Studebaker Drive",
+      "squareFootage": 1250,
+      "handicapAccessible": true
+    },
+    {
+      "id": 2,
+      "address": "9264 Acacia Ave",
+      "squareFootage": 1000,
+      "handicapAccessible": false
+    },
+    {
+      "id": 3,
+      "address": "86 Leatherwood Street",
+      "squareFootage": 1550,
+      "handicapAccessible": true
+    },
+    {
+      "id": 4,
+      "address": "7 Cypress Dr",
+      "squareFootage": 2000,
+      "handicapAccessible": true
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Jolly Ranchers",
+      "productTypeId": 1,
+      "price": 3.73
+    },
+    {
+      "id": 2,
+      "name": "Jaw Breakers",
+      "productTypeId": 1,
+      "price": 4.99
+    },
+    {
+      "id": 3,
+      "name": "Fruit Stripe",
+      "productTypeId": 2,
+      "price": 3.75
+    },
+    {
+      "id": 4,
+      "name": "Doublemint",
+      "productTypeId": 2,
+      "price": 3.5
+    },
+    {
+      "id": 5,
+      "name": "M & Ms",
+      "productTypeId": 3,
+      "price": 1.99
+    },
+    {
+      "id": 6,
+      "name": "Kit Kat",
+      "productTypeId": 3,
+      "price": 1.27
+    },
+    {
+      "id": 7,
+      "name": "Gummi Bears",
+      "productTypeId": 4,
+      "price": 2
+    },
+    {
+      "id": 8,
+      "name": "Orange Slices",
+      "productTypeId": 4,
+      "price": 2.45
+    },
+    {
+      "id": 9,
+      "name": "Gummi Worms",
+      "productTypeId": 4,
+      "price": 1.75
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "name": "Gum"
+    },
+    {
+      "id": 3,
+      "name": "Chocolate"
+    },
+    {
+      "id": 4,
+      "name": "Gummies"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Elena Allan",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 21.25
+    },
+    {
+      "id": 2,
+      "name": "Frank Jensen",
+      "locationId": 4,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 15.45
+    },
+    {
+      "name": "Brenda Smith",
+      "locationId": 3,
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 15,
+      "id": 4
+    }
+  ],
+  "customers": [
+    {
+      "email": "madelinecrowley@gmail.com",
+      "name": "Madeline Crowley",
+      "id": 1
+    },
+    {
+      "email": "janedoe@anonymous.com",
+      "name": "Jane Doe",
+      "id": 2
+    },
+    {
+      "email": "oscar@floof.com",
+      "name": "Oscar TheCat",
+      "id": 3
+    }
+  ],
+  "customerCandys": [
+    {
+      "customerId": 1,
+      "productId": 1,
+      "id": 1
+    },
+    {
+      "customerId": 1,
+      "productId": 2,
+      "id": 2
+    },
+    {
+      "customerId": 1,
+      "productId": 2,
+      "id": 3
+    },
+    {
+      "customerId": 1,
+      "productId": 8,
+      "id": 4
+    },
+    {
+      "customerId": 1,
+      "productId": 8,
+      "id": 5
+    },
+    {
+      "customerId": 1,
+      "productId": 8,
+      "id": 6
+    },
+    {
+      "customerId": 1,
+      "productId": 3,
+      "id": 7
+    },
+    {
+      "customerId": 1,
+      "productId": 3,
+      "id": 8
+    },
+    {
+      "customerId": 2,
+      "productId": 7,
+      "id": 9
+    },
+    {
+      "customerId": 2,
+      "productId": 7,
+      "id": 10
+    },
+    {
+      "customerId": 2,
+      "productId": 3,
+      "id": 11
+    },
+    {
+      "customerId": 2,
+      "productId": 8,
+      "id": 12
+    },
+    {
+      "customerId": 2,
+      "productId": 9,
+      "id": 13
+    },
+    {
+      "customerId": 2,
+      "productId": 9,
+      "id": 14
+    },
+    {
+      "customerId": 2,
+      "productId": 7,
+      "id": 15
+    },
+    {
+      "customerId": 2,
+      "productId": 2,
+      "id": 16
+    },
+    {
+      "customerId": 2,
+      "productId": 5,
+      "id": 17
+    },
+    {
+      "customerId": 3,
+      "productId": 6,
+      "id": 18
+    },
+    {
+      "customerId": 3,
+      "productId": 6,
+      "id": 19
+    },
+    {
+      "customerId": 3,
+      "productId": 7,
+      "id": 20
+    },
+    {
+      "customerId": 3,
+      "productId": 5,
+      "id": 21
+    },
+    {
+      "customerId": 3,
+      "productId": 3,
+      "id": 22
+    },
+    {
+      "customerId": 3,
+      "productId": 3,
+      "id": 23
+    }
+  ]
 }
